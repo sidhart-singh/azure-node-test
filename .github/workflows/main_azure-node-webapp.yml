@@ -62,6 +62,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "azure-node-webapp"
+          app-name: "azure-node-test-wa"
           slot-name: "Production"
           package: .
